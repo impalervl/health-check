@@ -49,4 +49,4 @@ dump-autoload:
 sleep-15:
 	sleep 15
 
-install: start sleep-15 composer-install key-generate migrate seed
+install: env start sleep-15 composer-install key-generate migrate
